@@ -1,2 +1,3 @@
-# reversalcode
-reversal code of chinese
+reversalcode
+===================
+> reversal code of chinese
