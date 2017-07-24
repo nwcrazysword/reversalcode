@@ -90,3 +90,5 @@ src/deactivate.bat
 
 # Rope project settings
 .ropeproject
+# PyCharm project settings
+.idea/
