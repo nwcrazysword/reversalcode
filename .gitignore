@@ -81,9 +81,9 @@ celerybeat-schedule
 # virtualenv
 venv/
 ENV/
-activate
-activate.bat
-deactivate.bat
+src/activate
+src/activate.bat
+src/deactivate.bat
 
 # Spyder project settings
 .spyderproject
