@@ -4,9 +4,9 @@
 
 import os
 import tensorflow as tf
+import numpy as np
 
-se=tf.Session()
-node1=tf.constant(3.0,dtype=tf.float32)
-node2=tf.constant(4.0)
-ret=se.run([node1,node2])
-print(ret)
+x_data=np.float32(np.random.rand(2,100))
+y_data=np.dot([0.100,0.200],x_data)+0.300
+
+b=tf.Variable()
